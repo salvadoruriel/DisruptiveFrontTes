@@ -1,0 +1,20 @@
+.movies{
+	height: 50%;
+}
+
+.movies-header{
+	width: 90%;
+	display: flex;
+	margin: 0 1rem 0 1rem;
+}
+
+.movies-header h2{
+	color: white;
+	margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+  .movies-header {
+    justify-content: space-between;
+  }
+}

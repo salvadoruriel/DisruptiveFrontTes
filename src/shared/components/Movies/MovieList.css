@@ -1,0 +1,17 @@
+::-webkit-scrollbar{
+	width: 0.4rem;
+	height: 0.5rem;
+	background-color: black;
+}
+::-webkit-scrollbar-thumb{
+	background-color: rgb(106, 55, 255);
+}
+
+.movie-list{
+	display: flex;
+	overflow-x: scroll;
+	width: 100%;
+}
+.center h2{
+	color: white;
+}
